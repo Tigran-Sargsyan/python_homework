@@ -1,5 +1,5 @@
 def int_sum(a,b):
-    sum = 0
+    summ = 0
     for i in range(a,b+1):
-        sum+=i
-    
+        summ += i
+    return summ
