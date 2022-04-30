@@ -3,3 +3,6 @@ def int_sum(a,b):
     for i in range(a,b+1):
         summ += i
     return summ
+
+def int_sum2(a,b):
+    return sum(range(a,b+1))
